@@ -6,3 +6,8 @@ This repository contains script and necessary configuration files to set up a li
   - build-essential
   - vim
   - ...
+
+
+
+### Usage
+```sh ./set_up_linux.sh```
