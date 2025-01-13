@@ -33,4 +33,4 @@ sed -i 's|^ZSH_THEME="robbyrussell"|ZSH_THEME="powerlevel10k/powerlevel10k"|' $H
 ####
 # Set up tmux
 ####
-cp .tmux.conf ~/.tmux.conf
+cp .tmux.conf $HOME/.tmux.conf
