@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt-get install -y curl git vim zsh cmake build-essential
+sudo apt-get install -y curl git vim zsh cmake build-essential tmux
 
 # install omz
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -29,3 +29,8 @@ cp ./.p10k.zsh $HOME/.p10k.zsh
 
 # 5. replace zsh theme
 sed -i 's|^ZSH_THEME="robbyrussell"|ZSH_THEME="powerlevel10k/powerlevel10k"|' $HOME/.zshrc
+
+####
+# Set up tmux
+####
+cp .tmux.conf ~/.tmux.conf
