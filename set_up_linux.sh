@@ -34,3 +34,7 @@ sed -i 's|^ZSH_THEME="robbyrussell"|ZSH_THEME="powerlevel10k/powerlevel10k"|' $H
 # Set up tmux
 ####
 cp .tmux.conf $HOME/.tmux.conf
+
+
+# git settings
+cp .gitconfig $HOME/.gitconfig
