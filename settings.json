@@ -1,0 +1,12 @@
+{
+  "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "variable.parameter.function-call.python",
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            }
+        ]
+    },
+}
